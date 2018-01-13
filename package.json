@@ -1,0 +1,27 @@
+{
+  "name": "node-get-ascii",
+  "version": "1.0.0",
+  "description": "Get ascii chars from a string - Node Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitfaf/node-get-ascii.git"
+  },
+  "keywords": ["ascii", "string"],
+  "author": "Git Faf <git.faf@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitfaf/node-get-ascii/issues"
+  },
+  "homepage": "https://github.com/gitfaf/node-get-ascii#readme",
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
