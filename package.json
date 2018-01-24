@@ -1,6 +1,6 @@
 {
   "name": "node-get-ascii",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Get ascii chars from a string - Node Module",
   "main": "index.js",
   "scripts": {
