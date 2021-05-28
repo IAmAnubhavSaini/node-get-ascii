@@ -1,8 +1,8 @@
 {
   "name": "node-get-ascii",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Get ascii chars from a string - Node Module",
-  "main": "index.js",
+  "main": "src/getPrintableAscii.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/gitfaf/node-get-ascii.git"
   },
-  "keywords": ["ascii", "string"],
+  "keywords": [
+    "ascii",
+    "string"
+  ],
   "author": "Git Faf <git.faf@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -18,10 +21,16 @@
   },
   "homepage": "https://github.com/gitfaf/node-get-ascii#readme",
   "devDependencies": {
-    "eslint-config-standard": "^11.0.0-beta.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "@types/jasmine": "^3.7.6",
+    "@types/node": "^15.6.1"
+  },
+  "bin": {
+    "getPrintableAscii": "src/getPrintableAscii.bin.js"
+  },
+  "dependencies": {
+    "@f0c1s/color-blue": "^0.0.1",
+    "@f0c1s/color-magenta": "^0.0.1",
+    "@f0c1s/color-red": "^0.0.1",
+    "@f0c1s/color-yellow": "^0.0.1"
   }
 }

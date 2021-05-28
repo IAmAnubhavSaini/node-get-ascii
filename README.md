@@ -4,24 +4,36 @@ Get ascii chars from a string - Node Module
 
 ## Usage
 
+### as library
+
 ```javascript
 
-  > var getAscii = require('./')
+var getPrintableAscii = require('./').getPrintableAscii
 
-  > getAscii('abcdefghijklmnop', 10)
-  'abcdefghij'
+getPrintableAscii('abcdefghijklmnop', 10)
+'abcdefghij'
 
-  > getAscii('abcdefghijklmnop')
-  'abcdefghijklmnop'
+getPrintableAscii('abcdefghijklmnop')
+'abcdefghijklmnop'
 
-  > getAscii('abc™¡™•¡∆∂ß˚çˆ…å˜çåß˚¬˜defghijklmnop')
-  'abcdefghijklmnop'
+getPrintableAscii('abc™¡™•¡∆∂ß˚çˆ…å˜çåß˚¬˜defghijklmnop')
+'abcdefghijklmnop'
 
-  > getAscii('abc™¡™•¡∆∂ß˚çˆ…å˜çåß˚¬˜defghijklmnop', 10)
-  'abcdefghij'
+getPrintableAscii('abc™¡™•¡∆∂ß˚çˆ…å˜çåß˚¬˜defghijklmnop', 10)
+'abcdefghij'
 
 ```
 
+### as command line utility
+
+> `getPrintableAscii <string> <number|optional,default=100>`
+
+1. `npm i -g node-get-ascii`
+2. `getPrintableAscii 'abc™¡™•¡∆∂ß˚çˆ…å˜çåß˚¬˜defghijklmnop' 10`
+
 ## License
 
-MIT &copy; 2018 Git Faf
+MIT
+
+- &copy; 2018 Git Faf
+- &copy; 2021 Anubhav
