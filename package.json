@@ -1,6 +1,6 @@
 {
   "name": "node-get-ascii",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Get ascii chars from a string - Node Module",
   "main": "src/getPrintableAscii.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gitfaf/node-get-ascii.git"
+    "url": "git+https://github.com/iamanubhavsaini/node-get-ascii.git"
   },
   "keywords": [
     "ascii",
@@ -17,9 +17,9 @@
   "author": "Git Faf <git.faf@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gitfaf/node-get-ascii/issues"
+    "url": "https://github.com/iamanubhavsaini/node-get-ascii/issues"
   },
-  "homepage": "https://github.com/gitfaf/node-get-ascii#readme",
+  "homepage": "https://github.com/iamanubhavsaini/node-get-ascii#readme",
   "devDependencies": {
     "@types/jasmine": "^3.7.6",
     "@types/node": "^15.6.1"

@@ -2,6 +2,10 @@
 
 Get ascii chars from a string - Node Module
 
+> Note: v4
+> `getPrintableAscii` is what earlier was `getAscii`: use it. returns string with charCode [32, 127).
+> `getAscii` returns string with charCode [0, 127].
+
 ## Usage
 
 ### as library

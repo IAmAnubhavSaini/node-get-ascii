@@ -15,7 +15,16 @@ function getPrintableAscii(input, n) {
         .join('');
 }
 
+function getAscii(input, n) {
+    return String(input)
+        .split('')
+        .filter(i => i >= 0 <= 127)
+        .slice(0, n)
+        .join('');
+}
+
 module.exports = {
+    getAscii,
     getPrintableAscii,
     printableAsciiChar,
     generatePrintableAscii
